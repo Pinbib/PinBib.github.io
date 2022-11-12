@@ -32,7 +32,7 @@ function closeinfo(){
   document.querySelector('p').style.height = '1px';
   document.querySelector('p').style.width = '1px';
 }
-let clickM = Random(5);
+let clickM = Random(50);
 function onclicks(){
   if(clickN==clickM){
     board.style.display = 'none';
