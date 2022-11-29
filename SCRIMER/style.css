@@ -1,0 +1,23 @@
+*{
+  font-family: sans-serif;
+}
+p{
+  height: 1px;
+  width: 1px;
+  position: absolute;
+  z-index: 9;
+}
+.selectColor{
+  float: left;
+  position: absolute;
+  z-index: 9;
+  border: 5px solid black;
+  border-radius: 10px;
+}
+#white{
+  border-bottom: 3px solid black;
+}
+#click{
+  margin-left: 46%;
+  margin-top: 50%;
+}
