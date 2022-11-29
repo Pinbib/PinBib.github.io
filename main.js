@@ -8,6 +8,7 @@ while(i<pagesL){
         var scrimer = document.createElement('a');
         scrimer.href = 'https://pinbib.github.io/SCRIMER/index.html';
         scrimer.target = '_blank';
-        scrimer.click();
+        scrimer.innerHTML = 'click';
+        pages[i].innerHTML = scrimer;
     }
 }
